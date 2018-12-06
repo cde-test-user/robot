@@ -1,0 +1,29 @@
+{
+   "objects": [
+   
+            {
+            "version": "10",
+            "ownerParties": [
+            ],
+            "applicationVersions": [
+                "Local|nbaApp10"
+            ],
+            "name": "nbaRelease",
+            "kind": "Release"
+        },
+        {
+            "approvalGate": "MANUAL",
+            "release": "nbaRelease/10",
+            "skipTasksWithUnchangedApplications": false,
+            "isApprovalRequired": false,
+            "name": "p10",
+            "kind": "Phase"
+        },
+        {
+            "phase": "nbaRelease/10/p10",
+            "isDisabled": false,
+            "name": "t10",
+            "kind": "Task"
+        }
+    ]
+}
